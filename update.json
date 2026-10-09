@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-10-09T07:47:58Z",
+  "generated": "2026-10-09T08:21:17Z",
   "releases": [
+    {
+      "version": "0.2.10",
+      "tag": "v0.2.10",
+      "title": "Nova Binder 0.2.10",
+      "date": "2026-10-09",
+      "notes": "- Сообщения у панели («Отправлено: …», «Биндер включён», причины отказа) больше не закрывают вкладки. Они появляются отдельной плашкой над панелью, а «Ответы», «Функции» и остальные вкладки остаются на месте и нажимаются сразу. Плашка не принимает нажатия и сама исчезает.\n- Круглые кнопки больше не расширяют поп-ап и панель: ширина одинакова при любой форме кнопок.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.10",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 35921355,
+        "sha256": "93b307138da7f9665574c1a4042eed515df9e373f65eb4f4c6c7e08c518814df",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.2.10/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.2.9",
       "tag": "v0.2.9",
@@ -139,5 +155,5 @@
       "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.1"
     }
   ],
-  "signature": "ece090e6dd3362a71eb597c06d257636b769b76237764a4487a46d0fa92f47b18925eeaf75d344ea18b7c47d240b8705f9c43c367f219d35c8f4b5f06d19b30e"
+  "signature": "42ab5e93b3485b6f59aa7c1ce2c65eaac6eb2f448eeb5fbeb3e67e50bdbcb3c4d520ca30b94609e6e0c3531b8e838905b03d13430a64b777295007cd9a52cc0b"
 }
