@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-10-09T05:31:52Z",
+  "generated": "2026-10-09T05:56:44Z",
   "releases": [
+    {
+      "version": "0.2.8",
+      "tag": "v0.2.8",
+      "title": "Nova Binder 0.2.8",
+      "date": "2026-10-09",
+      "notes": "- Готовые координаты для 2K (2560x1440): на таком мониторе все точки теперь встают сами.\n- Подбор только по точному размеру окна. У Full HD и 2K раскладка окна «Помощь игроку» разная, поэтому координаты соседнего размера больше не подставляются: для остальных размеров точки снимаются вручную, а ранее подставленные снимаются сами.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.8",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 35905955,
+        "sha256": "1c60577a327abfda1d7dd5ee8a6f55b48e53b77b76f50e5cb9741d7f03b9b83a",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.2.8/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.2.7",
       "tag": "v0.2.7",
@@ -107,5 +123,5 @@
       "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.1"
     }
   ],
-  "signature": "d1d418c1af17833d3f9d518d46e46eb91c6dc9d992cc8deb61952f0082909890cb37de10c93e1b06a30450e74503c1d3d2c46b4055e1ac77b7b30df94f2f3805"
+  "signature": "3f43a5fc85ad412521574d859364738c4115eda280496fd5c2421592ff1aaf648786489219190f073762064dde9ebc7fa5a0f605f0ce84fce54a561e448b3a09"
 }
