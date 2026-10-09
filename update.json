@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-10-09T04:54:23Z",
+  "generated": "2026-10-09T05:31:52Z",
   "releases": [
+    {
+      "version": "0.2.7",
+      "tag": "v0.2.7",
+      "title": "Nova Binder 0.2.7",
+      "date": "2026-10-09",
+      "notes": "- Готовые координаты для Full HD (1920x1080): на таком мониторе все точки встают сами, первая настройка не нужна. Для других размеров с теми же пропорциями берутся ближайшие, и на «Главной» появляется просьба проверить их.\n- Стандартные точки обновлены до точных значений.\n- Из стандартного набора убрана функция «В архив» и её точка. У старых профилей они снимаются сами, если вы их не меняли.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.7",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 35917202,
+        "sha256": "046b4d65643215610b30d6b7c3f226005277b0da1f2dc3e3727cf301315fbf64",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.2.7/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.2.6",
       "tag": "v0.2.6",
@@ -91,5 +107,5 @@
       "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.1"
     }
   ],
-  "signature": "b772457da9c0f49f34dcbb257579756ed44e144bfdf8ce43e99dfa8a886ca0e6ffdaa718d2234e5a9c67e84db08b4a4e32af9e00605c359b3c36954cd5060b00"
+  "signature": "d1d418c1af17833d3f9d518d46e46eb91c6dc9d992cc8deb61952f0082909890cb37de10c93e1b06a30450e74503c1d3d2c46b4055e1ac77b7b30df94f2f3805"
 }
