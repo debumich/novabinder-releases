@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-10-09T05:56:44Z",
+  "generated": "2026-10-09T07:47:58Z",
   "releases": [
+    {
+      "version": "0.2.9",
+      "tag": "v0.2.9",
+      "title": "Nova Binder 0.2.9",
+      "date": "2026-10-09",
+      "notes": "- Команды приведены к рабочему перечню сервера: параметры у всех сверены, нерабочие (/r, /route, /set_mask, /lp, /ol, /noclip, /lastkill, /checkbot, /getlastcontrollers) убраны. В наборе осталось 68 команд.\n- У /jail и /warn появился параметр «Забрать оружие (1/0)», у /re режим наблюдения, у /fixcar, /vehinfo и /arendplayer ID транспорта, у /unmute, /unrmute, /unjail и /unwarn причина, у /getorg и /getfam номер организации или семьи, у /as радиус. У /clearspikes, /clearcamping и /setdirt параметров нет.\n- Кнопки наказаний «Деморган» и «Предупреждение» теперь тоже передают, забирать ли оружие: переключатель «Забирать оружие» на странице «Наказания».\n- Старые профили исправляются сами: нерабочие команды, которые вы не меняли, убираются (вместе с местом на панели), у остальных обновляются параметры, а введённые вами значения сохраняются. У ваших кнопок наказаний «Деморган» и «Предупреждение» добавляется флаг оружия.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.9",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 35919593,
+        "sha256": "72ef3da3d698dd69275a4a1ac0970c0ed42994aeb06ff7b4a9886bc9c031f50e",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.2.9/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.2.8",
       "tag": "v0.2.8",
@@ -123,5 +139,5 @@
       "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.1"
     }
   ],
-  "signature": "3f43a5fc85ad412521574d859364738c4115eda280496fd5c2421592ff1aaf648786489219190f073762064dde9ebc7fa5a0f605f0ce84fce54a561e448b3a09"
+  "signature": "ece090e6dd3362a71eb597c06d257636b769b76237764a4487a46d0fa92f47b18925eeaf75d344ea18b7c47d240b8705f9c43c367f219d35c8f4b5f06d19b30e"
 }
