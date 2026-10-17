@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-10-17T14:47:52Z",
+  "generated": "2026-10-17T15:37:01Z",
   "releases": [
+    {
+      "version": "0.4.13",
+      "tag": "v0.4.13",
+      "title": "Nova Binder 0.4.13",
+      "date": "2026-10-17",
+      "notes": "- Счётчик в режиме «В игре» больше не виден в окне «Помощь игроку». Раньше «В игре» на деле значило «везде».\n- Для счётчика добавлен вариант «Везде», если он нужен и в игре, и в обращениях.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.4.13",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 114711722,
+        "sha256": "6e2927be166e710a978cc0aae859f78b893f130ebf8800468782f0bc8d2f726a",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.4.13/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.4.12",
       "tag": "v0.4.12",
@@ -225,23 +241,7 @@
           "https://github.com/debumich/novabinder-releases/releases/download/v0.3.0/NovaBinder.exe"
         ]
       }
-    },
-    {
-      "version": "0.2.21",
-      "tag": "v0.2.21",
-      "title": "Nova Binder 0.2.21",
-      "date": "2026-10-10",
-      "notes": "- Исправлена причина, по которой на компьютерах с несколькими мониторами умная панель не включалась и показывалась всегда. Биндер искал экран игры по имени, но Windows и программа называют мониторы по-разному, и совпадения не было. Теперь экран находится по положению и размеру, а чтение экрана вообще не зависит от этого сопоставления. На одном мониторе всё работало, поэтому это не замечали.\n- Если умная панель всё же не включилась, теперь видно почему: в журнале `novabinder.log` пишется причина, а на странице «Настройки», в блоке «Когда показывать панель», появляется пояснение. Для размера окна игры может не быть набора точек, или экран игры нельзя прочитать из-за монопольного полного экрана.\n- Исправлен выбор монитора, когда в настройках окна игры указан конкретный монитор.\n",
-      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.2.21",
-      "installer": {
-        "name": "NovaBinder.exe",
-        "size": 36045120,
-        "sha256": "85363ac6868f8227512c1b61dd5ccc46f2b691079a8bf8462eb4cd684d643bb1",
-        "urls": [
-          "https://github.com/debumich/novabinder-releases/releases/download/v0.2.21/NovaBinder.exe"
-        ]
-      }
     }
   ],
-  "signature": "93b59686b07d9e68bf38c79d1cf6d6ec0d7067a5ecad17e867ba7fb465e61e1bff1dc5c465ccd19768f2f6694f3dc803b438419ab4892eef62fd2de3df4eb20f"
+  "signature": "e205f1d04d1b4cabc0602f0cf0fb0945a8bee5eb32fdd47e62e193774886d4e5239bee6edac476d3ee8043f3e236498e6509e42e6c702d90dc07e0b30d403f09"
 }
