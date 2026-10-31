@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-10-31T07:38:01Z",
+  "generated": "2026-10-31T19:32:03Z",
   "releases": [
+    {
+      "version": "0.5.8",
+      "tag": "v0.5.8",
+      "title": "Nova Binder 0.5.8",
+      "date": "2026-10-31",
+      "notes": "- Подсказки команд остаются актуальными при редактировании строки и возвращаются после Alt+Tab.\n- Полоса команд и наказаний в чате теперь не шире поля ввода, в том числе на 2K-мониторах.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.5.8",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 115119319,
+        "sha256": "db328dd0a98c718e2e96043aea891c42bd3ceba05c0e5de812ad34f4beb5dc9d",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.5.8/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.5.7",
       "tag": "v0.5.7",
@@ -225,23 +241,7 @@
           "https://github.com/debumich/novabinder-releases/releases/download/v0.4.13/NovaBinder.exe"
         ]
       }
-    },
-    {
-      "version": "0.4.12",
-      "tag": "v0.4.12",
-      "title": "Nova Binder 0.4.12",
-      "date": "2026-10-17",
-      "notes": "- Настройки списка подсказок команд. На странице «Вид» появился раздел «Подсказки команд в чате»: положение под строкой чата или своё, размер текста, сколько строк показывать, описание команд и предпросмотр.\n- Список можно скрыть переключателем «Показывать список». Ctrl+Tab при этом всё равно дописывает команды. Переключатель «Дописывать по Ctrl+Tab» переехал со страницы «Работа» в этот же раздел.\n- В редакторе оверлея на Ctrl+F7 есть вкладка «Команды». Список можно перетащить мышью, поменять размер текста, число строк и описание, «Сбросить блок» вернёт его под строку чата.\n",
-      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.4.12",
-      "installer": {
-        "name": "NovaBinder.exe",
-        "size": 114702389,
-        "sha256": "e5eb623de2148818b8005f3b5c2c3dd9f1ea13a827fcf49e709de3f283f3ec7f",
-        "urls": [
-          "https://github.com/debumich/novabinder-releases/releases/download/v0.4.12/NovaBinder.exe"
-        ]
-      }
     }
   ],
-  "signature": "89a96a6efd6ee10521de9fe320fbce48b3f12b9e5c61b3350baa40e9f1b8b689c91dc58232a9802846038a68b8c6808a4d9e0e0debc44c9d713c9f5f2aabcd02"
+  "signature": "7afe5d1a00404f5c1b81396db72e7998040281b539ff8a75ab9978beb9cf1ade0b83bdae7969a0b2e638caf43f2644ef969c8a3de7b0fe0c0d59c0b6a9955506"
 }
