@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-10-30T19:32:44Z",
+  "generated": "2026-10-31T07:38:01Z",
   "releases": [
+    {
+      "version": "0.5.7",
+      "tag": "v0.5.7",
+      "title": "Nova Binder 0.5.7",
+      "date": "2026-10-31",
+      "notes": "- Исправлено положение подсказок команд под кнопками чата, в том числе при выборе своего места.\n- Добавление и удаление наказаний стало плавнее, без скачков в конце анимации.\n- Значок Nova Binder стабильнее отображается на панели задач Windows.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.5.7",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 115138732,
+        "sha256": "7defa2e161952046c199c1b8b5ca740d9260422c9326d85790343f6d3acebc67",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.5.7/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.5.6",
       "tag": "v0.5.6",
@@ -225,23 +241,7 @@
           "https://github.com/debumich/novabinder-releases/releases/download/v0.4.12/NovaBinder.exe"
         ]
       }
-    },
-    {
-      "version": "0.4.11",
-      "tag": "v0.4.11",
-      "title": "Nova Binder 0.4.11",
-      "date": "2026-10-17",
-      "notes": "- Исправлен залипающий Ctrl после Ctrl+Tab в чате. Раньше после вставки команды цифры ID не вводились, а Enter срабатывал как Ctrl+Enter, пока Ctrl не нажмёшь ещё раз.\n- Теперь биндер только отпускает Ctrl перед вставкой команды и больше не нажимает его сам. Листать подсказки, не отпуская Ctrl, по-прежнему можно.\n",
-      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.4.11",
-      "installer": {
-        "name": "NovaBinder.exe",
-        "size": 114680650,
-        "sha256": "2d35f8d33c5a491e273e8d40589e6ce51a0d835417bc0fd1df76a2c6bacc0561",
-        "urls": [
-          "https://github.com/debumich/novabinder-releases/releases/download/v0.4.11/NovaBinder.exe"
-        ]
-      }
     }
   ],
-  "signature": "a66b7bb83297517e694642fd2140a98eb77ed658c253b9228df3d342313376dce0293170363b006f7475054a92696f926e02c3b834faf6a5a19aeec5d326960f"
+  "signature": "89a96a6efd6ee10521de9fe320fbce48b3f12b9e5c61b3350baa40e9f1b8b689c91dc58232a9802846038a68b8c6808a4d9e0e0debc44c9d713c9f5f2aabcd02"
 }
