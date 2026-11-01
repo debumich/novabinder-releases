@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-11-01T05:32:37Z",
+  "generated": "2026-11-01T19:27:48Z",
   "releases": [
+    {
+      "version": "0.5.10",
+      "tag": "v0.5.10",
+      "title": "Nova Binder 0.5.10",
+      "date": "2026-11-01",
+      "notes": "- Поиск работает при переключении между командами и наказаниями, закрывается при переходе в другое окно, не мешая Alt+Tab и сворачиванию игры.\n- Окно поиска стало уже и прозрачнее, чтобы меньше перекрывать игру.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.5.10",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 115112485,
+        "sha256": "da5282e462f3b8d8c8ef384e202d76f9ac93de8ed62d3e4ce4a79464ca2022cd",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.5.10/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.5.9",
       "tag": "v0.5.9",
@@ -225,23 +241,7 @@
           "https://github.com/debumich/novabinder-releases/releases/download/v0.4.15/NovaBinder.exe"
         ]
       }
-    },
-    {
-      "version": "0.4.14",
-      "tag": "v0.4.14",
-      "title": "Nova Binder 0.4.14",
-      "date": "2026-10-17",
-      "notes": "- Подсказки биндов с местом «В обращениях» видны только когда открыт репорт с игроком. В списке обращений без открытого репорта их больше нет.\n- Счётчик в режиме «В игре» прячется и в меню F3, а не только в окне «Помощь игроку». В режиме «Везде» он виден и там.\n",
-      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.4.14",
-      "installer": {
-        "name": "NovaBinder.exe",
-        "size": 114754684,
-        "sha256": "e4219ebb7baef188aa9a0518400b981dc2c851067f8a2e5f28b17691a9de3ed3",
-        "urls": [
-          "https://github.com/debumich/novabinder-releases/releases/download/v0.4.14/NovaBinder.exe"
-        ]
-      }
     }
   ],
-  "signature": "1c4df99a65000852a9bf7732b17e4c4f0c58898f87bd72063fb43a960d838be637f19f2f8c26cf7c534a7d67be61897ada4c22703f59efea981c8ffbb74bf90d"
+  "signature": "3b17dc2ffdc1c9f9641eb21930b41eecab96d087f3e5c8e6c6fd2091e0d8dfb15ad5afa183487a56e1de41690d75ae00b6ebb6888e876ce37af68bd568a1490f"
 }
