@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-10-31T19:32:03Z",
+  "generated": "2026-11-01T05:32:37Z",
   "releases": [
+    {
+      "version": "0.5.9",
+      "tag": "v0.5.9",
+      "title": "Nova Binder 0.5.9",
+      "date": "2026-11-01",
+      "notes": "- Поиск команд остаётся открытым при нажатии на поле ввода.\n- Полоса команд и наказаний соответствует ширине поля чата на 2K-мониторах.\n- Окно ввода команды можно перемещать, а настройки стиля кнопок находятся рядом с доской кнопок.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.5.9",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 115119631,
+        "sha256": "cd32626746086044d21667a2969b068d07baa4ec05081b7ecfe62c1ba61f3567",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.5.9/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.5.8",
       "tag": "v0.5.8",
@@ -225,23 +241,7 @@
           "https://github.com/debumich/novabinder-releases/releases/download/v0.4.14/NovaBinder.exe"
         ]
       }
-    },
-    {
-      "version": "0.4.13",
-      "tag": "v0.4.13",
-      "title": "Nova Binder 0.4.13",
-      "date": "2026-10-17",
-      "notes": "- Счётчик в режиме «В игре» больше не виден в окне «Помощь игроку». Раньше «В игре» на деле значило «везде».\n- Для счётчика добавлен вариант «Везде», если он нужен и в игре, и в обращениях.\n",
-      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.4.13",
-      "installer": {
-        "name": "NovaBinder.exe",
-        "size": 114711722,
-        "sha256": "6e2927be166e710a978cc0aae859f78b893f130ebf8800468782f0bc8d2f726a",
-        "urls": [
-          "https://github.com/debumich/novabinder-releases/releases/download/v0.4.13/NovaBinder.exe"
-        ]
-      }
     }
   ],
-  "signature": "7afe5d1a00404f5c1b81396db72e7998040281b539ff8a75ab9978beb9cf1ade0b83bdae7969a0b2e638caf43f2644ef969c8a3de7b0fe0c0d59c0b6a9955506"
+  "signature": "1c4df99a65000852a9bf7732b17e4c4f0c58898f87bd72063fb43a960d838be637f19f2f8c26cf7c534a7d67be61897ada4c22703f59efea981c8ffbb74bf90d"
 }
