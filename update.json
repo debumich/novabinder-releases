@@ -1,7 +1,23 @@
 {
   "schema": 1,
-  "generated": "2026-11-01T19:27:48Z",
+  "generated": "2026-11-02T17:42:07Z",
   "releases": [
+    {
+      "version": "0.5.11",
+      "tag": "v0.5.11",
+      "title": "Nova Binder 0.5.11",
+      "date": "2026-11-02",
+      "notes": "- Поиск заметок убирает дубли и историю изменений, группирует результаты по правилам и показывает источник.\n- Текст команд и ответов вставляется сразу; режим печати по буквам сохраняется, если он выбран явно.\n- Значок приложения надёжнее отображается на панели задач, минимальный размер окна настроек увеличен.\n- Заставка установщика получила фирменный логотип с анимацией и выровненные индикаторы версии и прогресса.\n",
+      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.5.11",
+      "installer": {
+        "name": "NovaBinder.exe",
+        "size": 115171275,
+        "sha256": "cc2cc8cc90018d6c5a4479f8cc610cdf41bdbf072a2242c19f9878ec57140716",
+        "urls": [
+          "https://github.com/debumich/novabinder-releases/releases/download/v0.5.11/NovaBinder.exe"
+        ]
+      }
+    },
     {
       "version": "0.5.10",
       "tag": "v0.5.10",
@@ -225,23 +241,7 @@
           "https://github.com/debumich/novabinder-releases/releases/download/v0.4.16/NovaBinder.exe"
         ]
       }
-    },
-    {
-      "version": "0.4.15",
-      "tag": "v0.4.15",
-      "title": "Nova Binder 0.4.15",
-      "date": "2026-10-17",
-      "notes": "- Команда по Ctrl+Tab вставляется в чат мгновенно и целиком, через буфер обмена, а не печатается по буквам. Ваш буфер обмена возвращается сам.\n- Ctrl+Tab срабатывает только пока в чате набирается сама команда после /, без пробелов внутри. В обычном сообщении и при вводе параметров клавиша уходит в игру.\n- Список подсказок встаёт ниже плашек чата ME, TRY, DO, TODO и больше не пропадает сам. Раньше он мог закрыть плашки, биндер решал, что чат закрыт, и список исчезал до нового набора.\n",
-      "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.4.15",
-      "installer": {
-        "name": "NovaBinder.exe",
-        "size": 114685527,
-        "sha256": "ae931f8029e5d46c4689633ff735cf43e1981734caecf44a43e0052fdab1958e",
-        "urls": [
-          "https://github.com/debumich/novabinder-releases/releases/download/v0.4.15/NovaBinder.exe"
-        ]
-      }
     }
   ],
-  "signature": "3b17dc2ffdc1c9f9641eb21930b41eecab96d087f3e5c8e6c6fd2091e0d8dfb15ad5afa183487a56e1de41690d75ae00b6ebb6888e876ce37af68bd568a1490f"
+  "signature": "c341563182315ff09978a18b33e49da829a3f00d655c36edc887533edaf6fc351b536d61d80ea20aafd1a87885aa9e57a25f41574729efe906fbf3d0623cf808"
 }
