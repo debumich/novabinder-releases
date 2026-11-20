@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-19T21:55:11Z",
+  "generated": "2026-11-20T10:16:57Z",
   "releases": [
     {
       "version": "0.5.15",
@@ -27,8 +27,8 @@
       "page": "https://github.com/debumich/novabinder-releases/releases/tag/v0.5.13",
       "installer": {
         "name": "NovaBinder.exe",
-        "size": 115147946,
-        "sha256": "10124c8df30684eb9a7a15830d2ec218fe275a03f1f9331feed6394b1ac97349",
+        "size": 115155720,
+        "sha256": "01bb933e07efe3bbfafa835a0774a746459a30b4824903c9f2cbf63222162c51",
         "urls": [
           "https://github.com/debumich/novabinder-releases/releases/download/v0.5.13/NovaBinder.exe"
         ]
@@ -243,5 +243,5 @@
       }
     }
   ],
-  "signature": "ffc75cd04727079a70ccbac79be5e578b537fc4399f282cf5487bb7bcab33dbbd4a8ec891e437798416bd31159c75db0ddfe9001342a9ef7dbc33b1b24c77c0c"
+  "signature": "4951e24648e52c5135fbd72610838308ed222ebab8c5bc8f4029b9942476676855bd82ec9e9bfdc8d8a9f48f9e01584500efc3ee9f0998b467f97807019d7704"
 }
